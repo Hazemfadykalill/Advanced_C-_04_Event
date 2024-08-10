@@ -99,6 +99,29 @@ namespace Advanced_C__04_Event_Demo
 
             #region Generics
 
+            //Dictionary<string,long> Note = new Dictionary<string,long>();
+            //Console.WriteLine($"Count In This HashTable Is {Note.Count}");
+            //Note.Add("A", 1);
+            //Note.Add("B", 2);
+            //Note.Add("C", 3);
+            //Note.Add("D", 4);
+            //Note["D"] = 5;//set and get
+            //foreach (KeyValuePair<string,long> i in Note)//KeyValuePair<string,long> == var
+            //{
+
+            //    Console.WriteLine($"Key=>{i.Key}: Value : {i.Value}");
+
+            //}
+
+            //Console.WriteLine($"By using var Data type");
+            //foreach (var i in Note)//KeyValuePair<string,long> == var
+            //{
+
+            //    Console.WriteLine($"Key=>{i.Key}: Value : {i.Value}");
+
+            //}
+            //Console.WriteLine($"Count In This HashTable Is {Note.Count}");
+
             #endregion
             #endregion
         }
