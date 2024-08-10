@@ -1,5 +1,6 @@
 ﻿using Advanced_C__04_Event_Demo.Fifa;
 using Advanced_C__04_Event_Demo.YouTube;
+using System.Collections;
 
 namespace Advanced_C__04_Event_Demo
 {
@@ -76,7 +77,30 @@ namespace Advanced_C__04_Event_Demo
 
             #endregion
 
+            #region HashTable
 
+            #region Non Generic
+            //Hashtable Note = new Hashtable();
+            //Console.WriteLine($"Count In This HashTable Is {Note.Count}");
+            //Note.Add("A", 1);
+            //Note.Add("B", 2);
+            //Note.Add("C", 3);
+            //Note.Add("D", 4);
+            //Note["D"] = 5;//set and get
+            //foreach (DictionaryEntry i in Note)
+            //{
+
+            //    Console.WriteLine($"Key=>{i.Key}: Value : {i.Value}");
+
+            //}
+            //Console.WriteLine($"Count In This HashTable Is {Note.Count}");
+
+            #endregion
+
+            #region Generics
+
+            #endregion
+            #endregion
         }
     }
 }
