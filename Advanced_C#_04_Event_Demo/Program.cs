@@ -1,4 +1,5 @@
 ﻿using Advanced_C__04_Event_Demo.Fifa;
+using Advanced_C__04_Event_Demo.YouTube;
 
 namespace Advanced_C__04_Event_Demo
 {
@@ -37,7 +38,7 @@ namespace Advanced_C__04_Event_Demo
             //Player Is: Mahmoud And Your Team Is: AlAhly Is Running
             //ReFree Is Abrahim Nour El_Deen Is Looking
 
-           
+
 
 
 
@@ -45,6 +46,37 @@ namespace Advanced_C__04_Event_Demo
 
 
             #endregion
+
+            #region Example 02 Event YouTube
+            //Channel channel01 = new Channel()
+            //{
+            //    ChannelName = "ABC",
+
+            //};
+
+            //channel01.AddVideo(new Video() { VideoName = "C#Event", Discribtion = "Event Ahmed Amin" });
+            //Subscriber Sub01 = new Subscriber() { SubscriberName = "Ahmed" };
+            //Subscriber Sub02 = new Subscriber() { SubscriberName = "Ali" };
+            //Subscriber Sub03 = new Subscriber() { SubscriberName = "Mariem" };
+            //Subscriber Sub04 = new Subscriber() { SubscriberName = "Mahmoud" };
+            //Subscriber Sub05 = new Subscriber() { SubscriberName = "Zyad" };
+
+            //channel01.UploadVideo += Sub01.Notify;
+            //channel01.UploadVideo += Sub02.Notify;
+            //channel01.UploadVideo += Sub03.Notify;
+            //channel01.UploadVideo += Sub04.Notify;
+            //channel01.UploadVideo += Sub05.Notify;
+
+            //channel01.AddVideo(new Video() { VideoName = "C#Delegate", Discribtion = "Delegate Ahmed Amin" });
+
+            //channel01.UploadVideo -= Sub03.Notify;
+
+            //channel01.AddVideo(new Video() { VideoName = "C#23", Discribtion = "23 Ahmed Amin" });
+
+
+            #endregion
+
+
         }
     }
 }
